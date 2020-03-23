@@ -66,6 +66,35 @@ h2 {
   color: rgb(143, 217, 252);
   border-bottom-color: rgb(143, 217, 252);
 }
+.content-section {
+  padding: 1rem;
+  position: relative;
+  height: 400px;
+}
+.content-section .box {
+  height: 100%;
+  width: 80%;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.content-section:first-child video {
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-500, 0);
+  display: block;
+}
+.content-section .box .img-overlay {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  background: linear-gradient(
+    to right,
+    rgba(19, 16, 16, 0.575),
+    rgba(19, 16, 16, 0.575)
+  );
+}
 footer {
   text-align: center;
   padding: 3rem;
