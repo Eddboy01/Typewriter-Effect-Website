@@ -43,6 +43,8 @@ h2 {
 .container .txt-type {
   margin-left: 20px;
 }
+
+/* MISSION SECTION */
 .mission-section {
   padding: 3rem;
   background-color: #333;
@@ -66,18 +68,21 @@ h2 {
   color: rgb(143, 217, 252);
   border-bottom-color: rgb(143, 217, 252);
 }
+
 /* Skill SECTION */
 .skill-section {
   min-height: 80vh;
   /* display: flex;
   flex-direction: column;
   justify-content: center; */
+  background-color: #444;
   text-align: center;
   padding: 1rem;
 }
 .skill-section .skill-heading {
   font-size: 2rem;
   font-weight: 500;
+  color: #999;
 }
 .skill-section .skill-btn {
   padding: 0.6rem 1.2rem;
@@ -90,6 +95,7 @@ h2 {
 }
 .skill-section .skill-container {
   display: grid;
+  grid-gap: 10px;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 .skill-section .skill-container .box {
@@ -100,7 +106,7 @@ h2 {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: #fff;
+  background-color: transparent;
   /* box-shadow: 0 30px 60px rgba(0, 0, 0, 0.288); */
 }
 
