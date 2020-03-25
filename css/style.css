@@ -206,7 +206,7 @@ h2 {
 }
 .serv-container {
   height: 400px;
-  max-width: 300px;
+  max-width: 400px;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -224,8 +224,8 @@ h2 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 40%;
-  width: 25%;
+  height: 50%;
+  max-width: 50%;
   object-fit: cover;
 }
 .serv-container .serv-content {
@@ -236,6 +236,14 @@ h2 {
 }
 .serv-container .serv-content h2 {
   color: rgb(143, 217, 252);
+}
+.serv-container .serv-content button {
+  padding: 0.6rem 1.2rem;
+  margin-top: 10px;
+  background-color: transparent;
+  color: rgb(143, 217, 252);
+  border: 2px solid rgb(143, 217, 252);
+  border-radius: 5px;
 }
 footer {
   text-align: center;
