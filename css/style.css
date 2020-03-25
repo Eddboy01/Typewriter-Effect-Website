@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Baloo+Da+2&display=swap");
+:root {
+  --img-overlay: rgba(48, 47, 47, 0.281);
+  --sub-text-color: #cae8d5;
+}
 * {
   margin: 0;
   padding: 0;
@@ -12,8 +16,9 @@ body {
 .header {
   height: 100vh;
   position: relative;
-  background: #333 url("../images/architecture-buildings-chicago-1769362.jpg")
-    no-repeat center center;
+  background: linear-gradient(to right, var(--img-overlay), var(--img-overlay)),
+    #333 url("../images/architecture-buildings-chicago-1769362.jpg") no-repeat
+      center center;
   background-size: cover;
   overflow: hidden;
 }
@@ -38,7 +43,8 @@ h2 {
 }
 .container h2 {
   font-size: 2rem;
-  color: #aaa;
+  color: var(--sub-text-color);
+  font-weight: 700;
 }
 .container .txt-type {
   margin-left: 20px;
@@ -95,7 +101,7 @@ h2 {
 }
 .skill-section .skill-container {
   display: grid;
-  grid-gap: 10px;
+
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 .skill-section .skill-container .box {
@@ -142,6 +148,8 @@ h2 {
   stroke-dashoffset: calc(440 - (440 * 90) / 100);
   stroke: #000;
 }
+/* .skill-section */
+
 .skill-section .skill-container .box.box-1 .percent svg circle:nth-child(2) {
   stroke-dashoffset: calc(440 - (440 * 90) / 100);
   stroke: rgb(143, 217, 252);
