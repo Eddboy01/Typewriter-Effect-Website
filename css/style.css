@@ -76,7 +76,7 @@ h2 {
 
 /* Skill SECTION */
 .skill-section {
-  min-height: 80vh;
+  min-height: 60vh;
   /* display: flex;
   flex-direction: column;
   justify-content: center; */
@@ -112,6 +112,7 @@ h2 {
   justify-content: center;
   flex-direction: column;
   background-color: transparent;
+  margin-bottom: -15px;
   /* box-shadow: 0 30px 60px rgba(0, 0, 0, 0.288); */
 }
 
@@ -133,6 +134,7 @@ h2 {
   fill: none;
   stroke-width: 10;
   stroke: #000;
+
   transform: translate(5px, 5px);
   stroke-dasharray: 440;
   stroke-dashoffset: 440;
