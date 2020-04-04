@@ -3,6 +3,7 @@
 :root {
   --img-overlay: rgba(48, 47, 47, 0.623);
   --sub-text-color: #cae8d5;
+  --primary-light-blue: rgb(143, 217, 252);
 }
 * {
   margin: 0;
@@ -42,13 +43,40 @@ h2 {
 }
 .container h2 {
   font-size: 2rem;
-  color: var(--sub-text-color);
+  color: var(--primary-light-blue);
   font-weight: 700;
 }
 .container .txt-type {
   margin-left: 20px;
+  color: var(--primary-light-blue);
 }
-
+.container .btn-landing {
+  text-decoration: none;
+  border: 2px solid rgb(143, 217, 252);
+  display: block;
+  width: 130px;
+  color: rgb(143, 217, 252);
+  padding: 0.4rem 1.2rem;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+.container .btn-landing i {
+  margin-left: 8px;
+}
+.header .container ul {
+  margin-top: 20px;
+}
+.header .container ul li,
+.header .container ul li a {
+  list-style: none;
+  float: left;
+  color: #fff;
+  padding: 0 6px;
+  font-size: 24px;
+}
+.header .container ul li:first-child {
+  padding-left: 0;
+}
 /* MISSION SECTION */
 .mission-section {
   padding: 3rem;
