@@ -218,7 +218,12 @@ h2 {
   font-weight: 700px;
   letter-spacing: 1px;
 }
-/* SERVICES SECTION */
+
+/*
+================ 
+SERVICES SECTION
+================
+ */
 
 .service-section {
   background-color: #666;
@@ -240,6 +245,7 @@ h2 {
   flex-direction: column;
   position: relative;
   margin: 15px 20px;
+  box-shadow: 5px 10px 20px #000;
 }
 .serv-container .img-container {
   position: relative;
@@ -275,6 +281,12 @@ h2 {
   border: 2px solid rgb(143, 217, 252);
   border-radius: 5px;
 }
+/*
+================ 
+PROJECTS SECTION
+================
+ */
+
 footer {
   text-align: center;
   padding: 3rem;
